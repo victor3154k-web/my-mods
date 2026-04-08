@@ -41,6 +41,7 @@ body {
 
 
 .titulo {
+    padding-left:30px;    
     font-family:Playwrite IE;
     margin-top:5px;
     text-shadow:0 0 30px deepskyblue;
