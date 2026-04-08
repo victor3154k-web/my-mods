@@ -40,6 +40,10 @@ body {
 h1 {
     margin-top:5px;
     text-shadow:0 0 30px deepskyblue;
+    white-space: nowrap;      
+    overflow: hidden;        
+    text-overflow: ellipsis;
+
 }
 
 .pontos {
