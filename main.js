@@ -1,1 +1,12 @@
-console.log('ola mundo  !');
+const btn = document.querySelector('.pontos');
+const sidebar = document.querySelector('.sidebar');
+
+btn.addEventListener('click', () => {
+  sidebar.classList.toggle('active');
+});
+
+document.addEventListener('click', (e) => {
+  if (!sidebar.contains(e.target) && !btn.contains(e.target)) {
+    sidebar.classList.remove('active');
+  }
+});
